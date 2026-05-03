@@ -2,7 +2,7 @@
 # Neovim config installer — macOS (Ghostty) and Linux
 set -e
 
-REPO_URL="https://github.com/YOUR_GITHUB_USERNAME/nvim-config.git"
+REPO_URL="https://github.com/DobrevDeyan/nvim-config.git"
 NVIM_CONFIG="$HOME/.config/nvim"
 
 echo "==> Setting up Neovim dev environment..."

@@ -26,12 +26,12 @@ Personal Neovim configuration using [lazy.nvim](https://github.com/folke/lazy.nv
 ### macOS
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/nvim-config/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/DobrevDeyan/nvim-config/main/install.sh)
 ```
 
 Or clone manually:
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/nvim-config.git ~/.config/nvim
+git clone https://github.com/DobrevDeyan/nvim-config.git ~/.config/nvim
 ```
 
 ### Windows 11
@@ -41,13 +41,13 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/nvim-config.git ~/.config/nvim
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # Download and run installer:
-Invoke-WebRequest https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/nvim-config/main/install.ps1 -OutFile install.ps1
+Invoke-WebRequest https://raw.githubusercontent.com/DobrevDeyan/nvim-config/main/install.ps1 -OutFile install.ps1
 .\install.ps1
 ```
 
 Or clone manually:
 ```powershell
-git clone https://github.com/YOUR_GITHUB_USERNAME/nvim-config.git $env:LOCALAPPDATA\nvim
+git clone https://github.com/DobrevDeyan/nvim-config.git $env:LOCALAPPDATA\nvim
 ```
 
 ### After cloning (all platforms)

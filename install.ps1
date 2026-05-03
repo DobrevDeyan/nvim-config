@@ -3,7 +3,7 @@
 # Then run: .\install.ps1
 
 param(
-    [string]$RepoUrl = "https://github.com/YOUR_GITHUB_USERNAME/nvim-config.git"
+    [string]$RepoUrl = "https://github.com/DobrevDeyan/nvim-config.git"
 )
 
 $ErrorActionPreference = "Stop"
