@@ -6,7 +6,9 @@ return {
       'neovim/nvim-lspconfig',
     },
     config = function()
-      require('mason').setup({})
+      require('mason').setup({
+        install_root_dir = vim.fn.has('win32') == 1 and 'C:/m' or nil,
+      })
       require('mason-lspconfig').setup({
         ensure_installed = {
           "lua_ls",
